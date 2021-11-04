@@ -10,8 +10,7 @@
     "https://cprss.s3.amazonaws.com/denoweekly.com.xml",
     "https://increment.com/feed.xml",
     "https://merelycurious.me/feed.xml",
-    "https://plurrrr.com/feed.rss",
-    "http://journal.stuffwithstuff.com/rss.xml"
+    "https://plurrrr.com/feed.rss"
   ],
   "videogames": [
     "https://reddit-top-rss.herokuapp.com/?subreddit=gog&score=5&view=rss",
