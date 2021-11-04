@@ -12,8 +12,7 @@
     "https://merelycurious.me/feed.xml",
     "https://plurrrr.com/feed.rss",
     "http://journal.stuffwithstuff.com/rss.xml",
-    "https://blog.skialbainn.com/rss",
-    "https://handmade.network/podcast/podcast.xml"
+    "https://blog.skialbainn.com/rss"
   ],
   "videogames": [
     "https://reddit-top-rss.herokuapp.com/?subreddit=gog&score=5&view=rss",
