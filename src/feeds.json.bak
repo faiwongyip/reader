@@ -1,123 +1,228 @@
 {
     "通知": [
+        # 暨大头条
         "https://rsshub.app/jnu/yw/tt",
         "https://rsshub.app/jnu/yw/yw",
         "https://rsshub.app/jnu/xysx/yxsd",
+        # 暨大校园实讯-部门快讯
         "https://rsshub.app/jnu/xysx/bmkx",
+        # RSSHUB 有新路由啦
         "https://rsshub.app/rsshub/routes"
     ],
     "资讯": [
+        # 奇客Solidot
         "https://feeds.feedburner.com/solidot",
+        # 虎嗅-科技早报
         "https://rsshub.app/huxiu/tag/291",
+        # 虎嗅网
         "https://www.huxiu.com/rss/0.xml",
+        # 科技网论文-医药健康
         "http://www.sciencenet.cn/xml/paper.aspx?di=1",
+        # 月光博客
         "https://www.williamlong.info/rss.xml",
+        # 数字尾巴
         "https://www.dgtle.com/rss/dgtle.xml",
+        # 数字尾巴-闲置-全部
         "https://rsshub.app/dgtle/trade/0",
+        # 少数派
         "https://sspai.com/feed",
+        # 安卓果酱
         "https://cn.apkjam.com/feed.xml",
+        # 最美应用
         "http://zuimeia.com/feed/",
+        # 反斗软件
         "http://www.apprcn.com/feed",
+        # 手机中国-最新资讯
         "https://www.cnmo.com/rss/doc.xml",
+        # 雷锋网
         "https://www.leiphone.com/feed",
+        # 极客公园-资讯
         "https://rsshub.app/geekpark/breakingnews",
+        # readhub-热门话题
         "https://rsshub.app/readhub/category/topic",
+        # 知乎热榜
         "https://rsshub.app/zhihu/hotlist",
+        # 知乎想法
         "https://rsshub.app/zhihu/pin/daily",
+        # 知乎日报
         "https://rsshub.app/zhihu/daily",
+        # 知乎每日精选
         "https://www.zhihu.com/rss",
+        # 微博热搜榜
         "https://rsshub.app/weibo/search/hot",
+        # 抽屉新热榜
         "https://rsshub.app/chouti/hot",
+        # 百度贴吧-热榜
         "https://rsshub.app/tophub/Om4ejxvxEN",
+        # 雪球话题
         "https://rsshub.app/xueqiu/user/8152922548",
+        # 地球图辑队
         "https://dq.yam.com/rss.php",
+        # 观止
         "https://feedx.net/rss/guanzhi.xml",
+        # 果壳网 科学人
         "https://rsshub.app/guokr/scientific",
+        # pansci 范科学
         "https://pansci.asia/feed"
     ],
     "新闻": [
+        # 界面新闻-文艺圈
         "https://rsshub.app/jiemian/list/79",
+        # 界面新闻
         "https://feedx.net/rss/jiemian.xml",
+        # 澎湃新闻-首页头条
         "https://rsshub.app/thepaper/featured",
+        # 传媒透视
         "https://rsshub.app/mediadigest/latest",
+        # 半月谈
         "https://rsshub.app/banyuetan/jicengzhili",
+        # icable 即时新闻
         "https://rsshub.app/icable/all",
+        # 端传媒-最新
         "https://rsshub.app/initium/latest/zh-hans",
+        # 华尔街见闻
         "https://rsshub.app/wallstreetcn/news/global",
+        # 华尔街日报-opinion
         "https://rsshub.app/wsj/zh-cn/opinion",
+        # 华尔街日报-world_news
         "https://rsshub.app/wsj/zh-cn/world_news",
+        # 华尔街日报-market_news
         "https://rsshub.app/wsj/zh-cn/market_news",
+        # 靠谱新闻
         "https://rsshub.app/kaopunews",
+        # 联合早报-中港台-即时
         "https://rsshub.app/zaobao/realtime/china",
+        # 联合早报-新加坡-即时
         "https://rsshub.app/zaobao/realtime/singapore",
+        # 联合早报-国际-即时
         "https://rsshub.app/zaobao/realtime/world",
+        # 联合早报-中港台-新闻
         "https://rsshub.app/zaobao/znews/china",
+        # 联合早报-新加坡-新闻
         "https://rsshub.app/zaobao/znews/singapore",
+        # 联合早报-东南亚-新闻
         "https://rsshub.app/zaobao/znews/sea",
+        # 联合早报-国际-新闻
         "https://rsshub.app/zaobao/znews/world",
+        # 路透社-实时资讯
         "https://rsshub.app/reuters/theWire",
+        # 路透社-深度分析
         "https://rsshub.app/reuters/channel/cn/analyses",
+        # 路透社-时事要闻
         "https://rsshub.app/reuters/channel/cn/generalnews",
+        # 南方周末-新闻
         "https://rsshub.app/infzm/2",
+        # 南方周末-观点
         "https://rsshub.app/infzm/3",
+        # 南方周末-文化
         "https://rsshub.app/infzm/4",
+        # 南方周末-人物
         "https://rsshub.app/infzm/7",
+        # 南方周末-专题
         "https://rsshub.app/infzm/6",
+        # 中央社-即时
         "https://rsshub.app/cna/aall",
+        # 中央社-国际
         "https://rsshub.app/cna/aopl",
+        # 中央社-两岸
         "https://rsshub.app/cna/acn",
+        # 中央社-文化
         "https://rsshub.app/cna/acul",
+        # 香港经济日报-全部新闻
         "https://rsshub.app/hket/sran001",
+        # 香港经济日报-香港新闻
         "https://www.hket.com/rss/hongkong",
+        # 香港经济日报-两岸新闻
         "https://www.hket.com/rss/china",
+        # 香港经济日报-国际新闻
         "https://www.hket.com/rss/world",
+        # 中時電子報-新聞
         "https://rsshub.app/chinatimes/realtimenews",
+        # 中時電子報-政治
         "https://rsshub.app/chinatimes/politic",
+        # 中時電子報-社會
         "https://rsshub.app/chinatimes/society",
+        # 自由亚洲电台
         "https://rsshub.app/rfa/mandarin",
+        # ft中文网-今日焦点
         "http://www.ftchinese.com/rss/news",
+        # ft中文网-一周十大热门
         "http://www.ftchinese.com/rss/hotstoryby7day",
+        # techweb-今日聚焦
         "http://www.techweb.com.cn/rss/focus.xml",
+        # 好奇心日报
         "http://www.qdaily.com/feed.xml",
+        # 喷嚏网
         "https://rsshub.app/dapenti/tugua",
+        # 维基百科-大陆新闻
         "https://rsshub.app/wikipedia/mainland"
     ],
     "娱乐": [
+        # 煎蛋
         "http://jandan.net/feed",
+        # 煎蛋无聊图热榜
         "https://rsshub.app/jandan/top",
+        # 青年图摘
         "https://qingniantuzhai.com/rss/",
+        # bilibili 3日排行榜-全站
         "https://rsshub.app/bilibili/ranking/0/3"
     ],
     "技术": [
+        # 阮一峰的网络日志
         "http://feeds.feedburner.com/ruanyifeng",
+        # it牛人博客聚合
         "http://www.udpwork.com/feed",
+        # v2ex-最热主题
         "https://rsshub.app/v2ex/topics/hot",
+        # v2ex-技术
         "https://rsshub.app/v2ex/tab/tech",
+        # v2ex-酷工作
         "https://rsshub.app/v2ex/tab/jobs",
+        # v2ex-交易
         "https://rsshub.app/v2ex/tab/deals",
+        # 掘金-沸点
         "https://rsshub.app/juejin/pins",
+        # 掘金-本月最热
         "https://rsshub.app/juejin/trending/all/monthly",
+        # 掘金-后端本月最热
         "https://rsshub.app/juejin/trending/backend/monthly",
+        # 开发者头条-今日头条
         "https://rsshub.app/toutiao/today",
+        # 技术头条
         "https://rsshub.app/blogread/newest",
+        # infoq
         "https://www.infoq.cn/feed"
     ],
     "论坛": [
+        # 牛客网-全部交流讨论精华
         "https://rsshub.app/nowcoder/discuss/0/4",
+        # 牛客网-职业发展精华
         "https://rsshub.app/nowcoder/discuss/9/4",
+        # 牛客网-工作以后精华
         "https://rsshub.app/nowcoder/discuss/12/4",
+        # nga-二手交易
         "https://rsshub.app/nga/forum/498",
+        # 电鸭社区
         "https://eleduck.com/posts/2Lfl1y",
+        # 光谷社区
         "https://rsshub.app/guanggoo/index",
+        # 光谷社区-IT 技术
         "https://rsshub.app/guanggoo/it",
+        # 光谷社区-金融财经
         "https://rsshub.app/guanggoo/finance",
+        # 光谷社区-创业创客
         "https://rsshub.app/guanggoo/startup",
+        # 耳机大家坛
         "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0"
     ],
     "其他": [
+        # 自由微博
         "https://freeweibo.com/?rss",
+        # 编程随想的博客
         "https://feeds2.feedburner.com/programthink",
+        # 土木坛子
         "https://tumutanzi.com/feed",
+        # 豆瓣同城-热门活动
         "https://rsshub.app/douban/event/hot/118282"
     ]
 }
