@@ -30,8 +30,6 @@
         "https://cn.apkjam.com/feed.xml",
         # 最美应用
         "http://zuimeia.com/feed/",
-        # 反斗软件
-        "http://www.apprcn.com/feed",
         # 手机中国-最新资讯
         "https://www.cnmo.com/rss/doc.xml",
         # 雷锋网
@@ -203,7 +201,7 @@
         # nga-二手交易
         "https://rsshub.app/nga/forum/498",
         # 电鸭社区
-        "https://eleduck.com/posts/2Lfl1y",
+        "https://rsshub.app/eleduck/jobs",
         # 光谷社区
         "https://rsshub.app/guanggoo/index",
         # 光谷社区-IT 技术

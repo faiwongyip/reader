@@ -56,9 +56,11 @@ function parseFeed(response) {
 
     if (!DEV) {
         for (const group in feeds) {
+            console.info("group %s", group);
             contentFromAllFeeds[group] = [];
 
             for (let index = 0; index < feeds[group].length; index++) {
+                console.info("feed %s", feeds[group][index]);
                 try {
                     const response = await get(feeds[group][index]);
                     const body = parseFeed(response);
@@ -71,8 +73,9 @@ function parseFeed(response) {
 
                     // try to normalize date attribute naming
                     contents.items.forEach(item => {
-                        const timestamp = new Date(item.pubDate || item.isoDate || item.date).getTime();
-                        item.timestamp = isNaN(timestamp) ? (item.pubDate || item.isoDate || item.date) : timestamp;
+                        const dateString = item.pubDate || item.isoDate || item.date || "";
+                        const timestamp = new Date(dateString).getTime();
+                        item.timestamp = isNaN(timestamp) ? dateString : timestamp;
 
                         const formattedDate = new Date(item.timestamp).toLocaleDateString()
                         item.timestamp = formattedDate !== 'Invalid Date' ? formattedDate : dateString;
@@ -94,7 +97,7 @@ function parseFeed(response) {
                     // sort items
                     contents.items.sort((a, b) => {
                         const [aDate, bDate] = [parseDate(a), parseDate(b)];
-                        if (!aDate || !bDate) return 0; 
+                        if (!aDate || !bDate) return 0;
                         return bDate - aDate;
                     });
                 } catch (error) {
@@ -104,6 +107,7 @@ function parseFeed(response) {
           }
         }
     }
+    console.warn("fetch feed error!: %s", errors);
 
     let groups;
 
@@ -121,7 +125,7 @@ function parseFeed(response) {
         // sort the feeds by comparing the isoDate of the first items of each feed
         groups[i][1].sort((a, b) => {
             const [aDate, bDate] = [parseDate(a.items[0]), parseDate(b.items[0])];
-            if (!aDate || !bDate) return 0; 
+            if (!aDate || !bDate) return 0;
             return bDate - aDate;
         });
     }
@@ -143,7 +147,7 @@ function parseDate(item) {
 function getNowDate(){
     //EST
     const offset = -4.0
-    
+
     let d = new Date();
     const utc = d.getTime() + (d.getTimezoneOffset() * 60000);
     d = new Date(utc + (3600000 * offset));
