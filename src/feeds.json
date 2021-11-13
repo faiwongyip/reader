@@ -25,14 +25,23 @@
         "https://rsshub.app/zhihu/pin/daily",
         "https://rsshub.app/zhihu/daily",
         "https://www.zhihu.com/rss",
-        "https://rsshub.app/weibo/search/hot",
         "https://rsshub.app/chouti/hot",
-        "https://rsshub.app/tophub/Om4ejxvxEN",
         "https://rsshub.app/xueqiu/user/8152922548",
         "https://dq.yam.com/rss.php",
         "https://feedx.net/rss/guanzhi.xml",
         "https://rsshub.app/guokr/scientific",
-        "https://pansci.asia/feed"
+        "https://pansci.asia/feed",
+        "https://rsshub.app/engadget/chinese",
+        "https://rsshub.app/matataki/posts/hot",
+        "https://rsshub.app/matataki/users/3017/favorites/155/posts",
+        "https://rsshub.app/pmcaff/list/2",
+        "https://rsshub.app/baijing",
+        "https://rsshub.app/adquan/info",
+        "https://rsshub.app/weibo/search/hot",
+        "https://rsshub.app/tophub/Om4ejxvxEN",
+        "https://rsshub.app/latepost",
+        "https://rsshub.app/wainao-reads/all-articles",
+        "https://rsshub.app/tophub/47o8K20eMm"
     ],
     "新闻": [
         "https://rsshub.app/jiemian/list/79",
@@ -77,9 +86,17 @@
         "http://www.ftchinese.com/rss/news",
         "http://www.ftchinese.com/rss/hotstoryby7day",
         "http://www.techweb.com.cn/rss/focus.xml",
-        "http://www.qdaily.com/feed.xml",
+        "https://rsshub.app/qdaily/column/59",
         "https://rsshub.app/dapenti/tugua",
-        "https://rsshub.app/wikipedia/mainland"
+        "https://rsshub.app/wikipedia/mainland",
+        "https://feedx.net/rss/nikkei.xml",
+        "https://rsshub.app/8world",
+        "https://rsshub.app/8world/greater-china",
+        "https://rsshub.app/aljazeera/news",
+        "https://rsshub.app/cbndata/information",
+        "https://rsshub.app/houxu/lives/new",
+        "https://rsshub.app/houxu/lives/realtime",
+        "http://cnpolitics.org/feed/"
     ],
     "娱乐": [
         "http://jandan.net/feed",
@@ -99,7 +116,8 @@
         "https://rsshub.app/juejin/trending/backend/monthly",
         "https://rsshub.app/toutiao/today",
         "https://rsshub.app/blogread/newest",
-        "https://www.infoq.cn/feed"
+        "https://www.infoq.cn/feed",
+        "https://rsshub.app/meituan/tech/home"
     ],
     "论坛": [
         "https://rsshub.app/nowcoder/discuss/0/4",
@@ -111,10 +129,20 @@
         "https://rsshub.app/guanggoo/it",
         "https://rsshub.app/guanggoo/finance",
         "https://rsshub.app/guanggoo/startup",
-        "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0"
+        "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0",
+        "https://rsshub.app/tophub/G47o8weMmN",
+        "https://rsshub.app/tophub/rDgeyqeZqJ",
+        "https://rsshub.app/tophub/Ywv41YMdPa",
+        "https://rsshub.app/tophub/rYqoXqXvOD",
+        "https://rsshub.app/tophub/nBe0JAyv37",
+        "https://rsshub.app/tophub/8Rv2jEwvLw",
+        "https://rsshub.app/tophub/Q0orpwYd8B",
+        "https://rsshub.app/tophub/LwkvlBqez1",
+        "https://rsshub.app/tophub/WYKd6jdaPj"
     ],
     "其他": [
         "https://freeweibo.com/?rss",
+        "https://freewechat.com/?rss",
         "https://feeds2.feedburner.com/programthink",
         "https://tumutanzi.com/feed",
         "https://rsshub.app/douban/event/hot/118282"

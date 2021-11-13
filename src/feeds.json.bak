@@ -46,12 +46,8 @@
         "https://rsshub.app/zhihu/daily",
         # 知乎每日精选
         "https://www.zhihu.com/rss",
-        # 微博热搜榜
-        "https://rsshub.app/weibo/search/hot",
         # 抽屉新热榜
         "https://rsshub.app/chouti/hot",
-        # 百度贴吧-热榜
-        "https://rsshub.app/tophub/Om4ejxvxEN",
         # 雪球话题
         "https://rsshub.app/xueqiu/user/8152922548",
         # 地球图辑队
@@ -61,7 +57,29 @@
         # 果壳网 科学人
         "https://rsshub.app/guokr/scientific",
         # pansci 范科学
-        "https://pansci.asia/feed"
+        "https://pansci.asia/feed",
+        # Engadget 瘾科技
+        "https://rsshub.app/engadget/chinese",
+        # 瞬Matataki - 热门作品
+        "https://rsshub.app/matataki/posts/hot",
+        # Matters-热门
+        "https://rsshub.app/matataki/users/3017/favorites/155/posts",
+        # PMCAFF-精选
+        "https://rsshub.app/pmcaff/list/2",
+        # 白鲸出海
+        "https://rsshub.app/baijing",
+        # 广告网 - 行业观察
+        "https://rsshub.app/adquan/info",
+        # 微博热搜榜
+        "https://rsshub.app/weibo/search/hot",
+        # 百度贴吧-热榜
+        "https://rsshub.app/tophub/Om4ejxvxEN",
+        # 晚点LatePost-最新报道
+        "https://rsshub.app/latepost",
+        # 歪脑 wainao.me
+        "https://rsshub.app/wainao-reads/all-articles",
+        # 集思录 ‧ 今日热门榜
+        "https://rsshub.app/tophub/47o8K20eMm"
     ],
     "新闻": [
         # 界面新闻-文艺圈
@@ -149,11 +167,27 @@
         # techweb-今日聚焦
         "http://www.techweb.com.cn/rss/focus.xml",
         # 好奇心日报
-        "http://www.qdaily.com/feed.xml",
+        "https://rsshub.app/qdaily/column/59",
         # 喷嚏网
         "https://rsshub.app/dapenti/tugua",
         # 维基百科-大陆新闻
-        "https://rsshub.app/wikipedia/mainland"
+        "https://rsshub.app/wikipedia/mainland",
+        # 日经新闻网
+        "https://feedx.net/rss/nikkei.xml",
+        # 8 视界-即时新闻
+        "https://rsshub.app/8world",
+        # 8 视界-中港台
+        "https://rsshub.app/8world/greater-china",
+        # Aljazeera 半岛网
+        "https://rsshub.app/aljazeera/news",
+        # CBNData
+        "https://rsshub.app/cbndata/information",
+        # 后续-热点
+        "https://rsshub.app/houxu/lives/new",
+        # 后续-跟踪
+        "https://rsshub.app/houxu/lives/realtime",
+        # 政见
+        "http://cnpolitics.org/feed/"
     ],
     "娱乐": [
         # 煎蛋
@@ -189,7 +223,9 @@
         # 技术头条
         "https://rsshub.app/blogread/newest",
         # infoq
-        "https://www.infoq.cn/feed"
+        "https://www.infoq.cn/feed",
+        # 美团技术团队
+        "https://rsshub.app/meituan/tech/home"
     ],
     "论坛": [
         # 牛客网-全部交流讨论精华
@@ -211,11 +247,31 @@
         # 光谷社区-创业创客
         "https://rsshub.app/guanggoo/startup",
         # 耳机大家坛
-        "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0"
+        "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0",
+        # 虎扑社区 - 步行街热帖
+        "https://rsshub.app/tophub/G47o8weMmN",
+        # 水木社区 ‧ 十大热门话题
+        "https://rsshub.app/tophub/rDgeyqeZqJ",
+        # 吾爱破解 ‧ 人气热门
+        "https://rsshub.app/tophub/Ywv41YMdPa",
+        # 虫部落 ‧ 最新热门
+        "https://rsshub.app/tophub/rYqoXqXvOD",
+        # 失业者联盟 ‧ 优选
+        "https://rsshub.app/tophub/nBe0JAyv37",
+        # 小木虫论坛 ‧ 24小时热榜
+        "https://rsshub.app/tophub/8Rv2jEwvLw",
+        # 独立开发者社区
+        "https://rsshub.app/tophub/Q0orpwYd8B",
+        # 豆瓣话题广场 ‧ 24小时话题趋势
+        "https://rsshub.app/tophub/LwkvlBqez1",
+        # 豆瓣小组 ‧ 讨论精选
+        "https://rsshub.app/tophub/WYKd6jdaPj"
     ],
     "其他": [
         # 自由微博
         "https://freeweibo.com/?rss",
+        # 自由微信
+        "https://freewechat.com/?rss",
         # 编程随想的博客
         "https://feeds2.feedburner.com/programthink",
         # 土木坛子
