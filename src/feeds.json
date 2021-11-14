@@ -37,14 +37,14 @@
         "https://rsshub.app/pmcaff/list/2",
         "https://rsshub.app/baijing",
         "https://rsshub.app/adquan/info",
+        "https://www.jisilu.cn/feed",
+        "https://api.feeddd.org/feeds/6150f3821269c358aa139d9b",
         "https://rsshub.app/weibo/search/hot",
-        "https://rsshub.app/tophub/Om4ejxvxEN",
         "https://rsshub.app/latepost",
         "https://rsshub.app/wainao-reads/all-articles",
-        "https://rsshub.app/tophub/47o8K20eMm"
+        "https://rsshub.app/tophub/Om4ejxvxEN"
     ],
     "新闻": [
-        "https://rsshub.app/jiemian/list/79",
         "https://feedx.net/rss/jiemian.xml",
         "https://rsshub.app/thepaper/featured",
         "https://rsshub.app/mediadigest/latest",
@@ -88,7 +88,6 @@
         "http://www.techweb.com.cn/rss/focus.xml",
         "https://rsshub.app/qdaily/column/59",
         "https://rsshub.app/dapenti/tugua",
-        "https://rsshub.app/wikipedia/mainland",
         "https://feedx.net/rss/nikkei.xml",
         "https://rsshub.app/8world",
         "https://rsshub.app/8world/greater-china",
@@ -96,7 +95,9 @@
         "https://rsshub.app/cbndata/information",
         "https://rsshub.app/houxu/lives/new",
         "https://rsshub.app/houxu/lives/realtime",
-        "http://cnpolitics.org/feed/"
+        "http://cnpolitics.org/feed/",
+        "https://rsshub.app/wikipedia/mainland",
+        "https://rsshub.app/jiemian/list/79"
     ],
     "娱乐": [
         "http://jandan.net/feed",
@@ -106,7 +107,6 @@
     ],
     "技术": [
         "http://feeds.feedburner.com/ruanyifeng",
-        "http://www.udpwork.com/feed",
         "https://rsshub.app/v2ex/topics/hot",
         "https://rsshub.app/v2ex/tab/tech",
         "https://rsshub.app/v2ex/tab/jobs",
@@ -117,7 +117,12 @@
         "https://rsshub.app/toutiao/today",
         "https://rsshub.app/blogread/newest",
         "https://www.infoq.cn/feed",
-        "https://rsshub.app/meituan/tech/home"
+        "https://rsshub.app/meituan/tech/home",
+        "https://rsshub.app/blogs/wangyin",
+        "https://www.zlovezl.cn/feeds/latest/",
+        "https://api.feeddd.org/feeds/6152b4101269c358aa14122d",
+        "https://api.feeddd.org/feeds/61455d381269c358aa11efca",
+        "http://www.udpwork.com/feed"
     ],
     "论坛": [
         "https://rsshub.app/nowcoder/discuss/0/4",
@@ -132,13 +137,15 @@
         "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0",
         "https://rsshub.app/tophub/G47o8weMmN",
         "https://rsshub.app/tophub/rDgeyqeZqJ",
-        "https://rsshub.app/tophub/Ywv41YMdPa",
+        "https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1",
+        "https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1",
         "https://rsshub.app/tophub/rYqoXqXvOD",
-        "https://rsshub.app/tophub/nBe0JAyv37",
+        "https://rsshub.app/1point3acres/post/hot",
         "https://rsshub.app/tophub/8Rv2jEwvLw",
         "https://rsshub.app/tophub/Q0orpwYd8B",
         "https://rsshub.app/tophub/LwkvlBqez1",
-        "https://rsshub.app/tophub/WYKd6jdaPj"
+        "https://rsshub.app/tophub/WYKd6jdaPj",
+        "https://rsshub.app/tophub/nBe0JAyv37"
     ],
     "其他": [
         "https://freeweibo.com/?rss",

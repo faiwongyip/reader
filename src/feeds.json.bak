@@ -70,20 +70,20 @@
         "https://rsshub.app/baijing",
         # 广告网 - 行业观察
         "https://rsshub.app/adquan/info",
+        # 集思录
+        "https://www.jisilu.cn/feed",
+        # 集思录公众号
+        "https://api.feeddd.org/feeds/6150f3821269c358aa139d9b",
         # 微博热搜榜
         "https://rsshub.app/weibo/search/hot",
-        # 百度贴吧-热榜
-        "https://rsshub.app/tophub/Om4ejxvxEN",
         # 晚点LatePost-最新报道
         "https://rsshub.app/latepost",
         # 歪脑 wainao.me
         "https://rsshub.app/wainao-reads/all-articles",
-        # 集思录 ‧ 今日热门榜
-        "https://rsshub.app/tophub/47o8K20eMm"
+        # 百度贴吧-热榜
+        "https://rsshub.app/tophub/Om4ejxvxEN"
     ],
     "新闻": [
-        # 界面新闻-文艺圈
-        "https://rsshub.app/jiemian/list/79",
         # 界面新闻
         "https://feedx.net/rss/jiemian.xml",
         # 澎湃新闻-首页头条
@@ -170,8 +170,6 @@
         "https://rsshub.app/qdaily/column/59",
         # 喷嚏网
         "https://rsshub.app/dapenti/tugua",
-        # 维基百科-大陆新闻
-        "https://rsshub.app/wikipedia/mainland",
         # 日经新闻网
         "https://feedx.net/rss/nikkei.xml",
         # 8 视界-即时新闻
@@ -187,7 +185,11 @@
         # 后续-跟踪
         "https://rsshub.app/houxu/lives/realtime",
         # 政见
-        "http://cnpolitics.org/feed/"
+        "http://cnpolitics.org/feed/",
+        # 维基百科-大陆新闻
+        "https://rsshub.app/wikipedia/mainland",
+        # 界面新闻-文艺圈
+        "https://rsshub.app/jiemian/list/79"
     ],
     "娱乐": [
         # 煎蛋
@@ -202,8 +204,6 @@
     "技术": [
         # 阮一峰的网络日志
         "http://feeds.feedburner.com/ruanyifeng",
-        # it牛人博客聚合
-        "http://www.udpwork.com/feed",
         # v2ex-最热主题
         "https://rsshub.app/v2ex/topics/hot",
         # v2ex-技术
@@ -225,7 +225,17 @@
         # infoq
         "https://www.infoq.cn/feed",
         # 美团技术团队
-        "https://rsshub.app/meituan/tech/home"
+        "https://rsshub.app/meituan/tech/home",
+        # 王垠的博客
+        "https://rsshub.app/blogs/wangyin",
+        # Python 工匠
+        "https://www.zlovezl.cn/feeds/latest/",
+        # 腾讯技术工程
+        "https://api.feeddd.org/feeds/6152b4101269c358aa14122d",
+        # 字节跳动技术团队
+        "https://api.feeddd.org/feeds/61455d381269c358aa11efca",
+        # it牛人博客聚合
+        "http://www.udpwork.com/feed"
     ],
     "论坛": [
         # 牛客网-全部交流讨论精华
@@ -252,12 +262,14 @@
         "https://rsshub.app/tophub/G47o8weMmN",
         # 水木社区 ‧ 十大热门话题
         "https://rsshub.app/tophub/rDgeyqeZqJ",
-        # 吾爱破解 ‧ 人气热门
-        "https://rsshub.app/tophub/Ywv41YMdPa",
+        # 吾爱破解 ‧ 最新热门
+        "https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1",
+        # 吾爱破解 ‧ 最新精华
+        "https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1",
         # 虫部落 ‧ 最新热门
         "https://rsshub.app/tophub/rYqoXqXvOD",
-        # 失业者联盟 ‧ 优选
-        "https://rsshub.app/tophub/nBe0JAyv37",
+        # 一亩三分地
+        "https://rsshub.app/1point3acres/post/hot",
         # 小木虫论坛 ‧ 24小时热榜
         "https://rsshub.app/tophub/8Rv2jEwvLw",
         # 独立开发者社区
@@ -265,7 +277,9 @@
         # 豆瓣话题广场 ‧ 24小时话题趋势
         "https://rsshub.app/tophub/LwkvlBqez1",
         # 豆瓣小组 ‧ 讨论精选
-        "https://rsshub.app/tophub/WYKd6jdaPj"
+        "https://rsshub.app/tophub/WYKd6jdaPj",
+        # 失业者联盟 ‧ 优选
+        "https://rsshub.app/tophub/nBe0JAyv37"
     ],
     "其他": [
         # 自由微博
