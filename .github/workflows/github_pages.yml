@@ -5,7 +5,7 @@ on:
       - main
   schedule:
     # Run this script every 30 minutes
-    - cron:  '*/60 * * * *'
+    - cron:  '0 */12 * * *'
   workflow_dispatch:
     inputs:
       tags:
