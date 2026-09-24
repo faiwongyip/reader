@@ -1,58 +1,16 @@
 {
-    "通知": [
-    ],
-    "新闻资讯": [
-        "https://feeds.feedburner.com/solidot",
-        "https://www.huxiu.com/rss/0.xml",
-        "http://www.sciencenet.cn/xml/paper.aspx?di=1",
-        "https://www.williamlong.info/rss.xml",
-        "https://www.dgtle.com/rss/dgtle.xml",
-        "https://sspai.com/feed",
-        "https://cn.apkjam.com/feed.xml",
-        "http://zuimeia.com/feed/",
-        "https://www.cnmo.com/rss/doc.xml",
-        "https://www.leiphone.com/feed",
-        "https://www.zhihu.com/rss",
-        "https://dq.yam.com/rss.php",
-        "https://feedx.net/rss/guanzhi.xml",
-        "https://pansci.asia/feed",
-        "https://api.feeddd.org/feeds/6150f3821269c358aa139d9b",
-        "https://feedx.net/rss/jiemian.xml",
-        "https://www.hket.com/rss/hongkong",
-        "https://www.hket.com/rss/china",
-        "https://www.hket.com/rss/world",
-        "http://www.ftchinese.com/rss/news",
-        "http://www.ftchinese.com/rss/hotstoryby7day",
-        "http://www.techweb.com.cn/rss/focus.xml",
-        "https://feedx.net/rss/nikkei.xml",
-        "http://cnpolitics.org/feed/"
-    ],
-    "投资": [
-        "https://www.jisilu.cn/feed",
-        "https://www.xueqiu.com/hots/topic/rss"
-    ],
-    "娱乐": [
-        "http://jandan.net/feed",
-        "https://qingniantuzhai.com/rss/"
-    ],
-    "技术": [
-        "http://feeds.feedburner.com/ruanyifeng",
-        "https://www.infoq.cn/feed",
-        "https://www.zlovezl.cn/feeds/latest/",
-        "https://api.feeddd.org/feeds/6152b4101269c358aa14122d",
-        "https://api.feeddd.org/feeds/61455d381269c358aa11efca",
-        "http://www.udpwork.com/feed"
-    ],
-    "论坛": [
-        "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0",
-        "https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1",
-        "https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1"
-    ],
-    "其他": [
-        "https://freeweibo.com/?rss",
-        "https://freewechat.com/?rss",
-        "https://feeds2.feedburner.com/programthink",
-        "https://tumutanzi.com/feed",
-        "https://workersrss-9yp.pages.dev/?wikipediahot=zh"
-    ]
+  "feeds": [
+    "https://hnrss.org/frontpage?points=10&comments=5&count=35"
+  ],
+  "blogs": [
+    "https://xeiaso.net/blog.rss",
+    "https://drewdevault.com/blog/index.xml",
+    "https://danluu.com/atom.xml",
+    "https://kevinfiol.com/atom.xml",
+    "https://terrysfreegameoftheweek.com/feed/",
+    "https://fasterthanli.me/index.xml"
+  ],
+  "reddit": [
+    "https://www.reddit.com/r/Games.rss"
+  ]
 }
