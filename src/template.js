@@ -106,6 +106,24 @@ export const template = ({ allItems, groups, errors, now }) => (`
         </div>
     </main>
   </div>
+  <script>
+    (function () {
+      var menuBtn = document.getElementById('menu-btn');
+      if (!menuBtn) return;
+
+      function closeMenu() {
+        menuBtn.checked = false;
+      }
+
+      // Selecting a group should dismiss the mobile menu and show the content.
+      document.querySelectorAll('.group-selector a').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      // Keep the menu in sync when navigating via back/forward.
+      window.addEventListener('hashchange', closeMenu);
+    })();
+  </script>
 </body>
 </html>
 `);

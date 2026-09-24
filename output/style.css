@@ -22,11 +22,29 @@
 @media screen and (max-width: 900px) {
   :root {
     --main-padding-right: 0;
+    --font-size: 16px;
+    --title-font-size: 18px;
+  }
+
+  .app {
+    gap: 0;
+    padding: 0 0.75rem 1rem;
   }
 
   article.item {
+    max-width: 100% !important;
     margin-right: 0 !important;
     margin-left: 0 !important;
+    padding: 0.5rem 0.75rem;
+  }
+
+  ul.article-links > li {
+    margin-right: 0.75rem;
+  }
+
+  ul.article-links > li > a {
+    display: inline-block;
+    padding: 0.3rem 0.1rem;
   }
 
   .menu-label,
@@ -103,6 +121,8 @@ body {
   font-family: serif;
   font-size: var(--font-size);
   overflow: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 details[open] > *:not(summary),
@@ -164,7 +184,7 @@ summary:hover div {
 }
 
 .feed-url {
-  font-size: ;
+  font-size: 0.85em;
 }
 
 .feed-timestamp {
@@ -199,6 +219,7 @@ header {
 main {
   flex: 5;
   height: 100vh;
+  height: 100dvh;
   overflow-y: auto;
   padding-right: var(--main-padding-right);
 }
