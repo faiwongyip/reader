@@ -3,7 +3,7 @@
     ],
     "新闻资讯": [
         "https://feeds.feedburner.com/solidot",
-        "https://www.huxiu.com/rss/0.xml",
+        "https://rss.huxiu.com/",
         "http://www.sciencenet.cn/xml/paper.aspx?di=1",
         "https://www.williamlong.info/rss.xml",
         "https://www.dgtle.com/rss/dgtle.xml",
@@ -14,7 +14,6 @@
         "https://www.leiphone.com/feed",
         "https://www.zhihu.com/rss",
         "https://dq.yam.com/rss.php",
-        "https://feedx.net/rss/guanzhi.xml",
         "https://pansci.asia/feed",
         "https://api.feeddd.org/feeds/6150f3821269c358aa139d9b",
         "https://feedx.net/rss/jiemian.xml",
@@ -25,15 +24,33 @@
         "http://www.ftchinese.com/rss/hotstoryby7day",
         "http://www.techweb.com.cn/rss/focus.xml",
         "https://feedx.net/rss/nikkei.xml",
-        "http://cnpolitics.org/feed/"
+        "http://cnpolitics.org/feed/",
+        "https://rss.aishort.top/?type=baidu",
+        "https://zh.gijn.org/feed/",
+        "https://decemberpei.cyou/rssbox/thepaper.xml",
+        "https://decemberpei.cyou/rssbox/wechat-nanfangzhoumo.xml"
     ],
-    "投资": [
+    "商业投资": [
         "https://www.jisilu.cn/feed",
-        "https://www.xueqiu.com/hots/topic/rss"
+        "https://www.xueqiu.com/hots/topic/rss",
+        "https://decemberpei.cyou/rssbox/wechat-bandaotihangyeguancha.xml",
+        "https://decemberpei.cyou/rssbox/wechat-wandian.xml",
+        "https://decemberpei.cyou/rssbox/wechat-maobidao.xml",
+        "https://decemberpei.cyou/rssbox/wechat-zhongjindianjing.xml",
+        "https://decemberpei.cyou/rssbox/wechat-peifengke.xml",
+        "https://decemberpei.cyou/rssbox/wechat-bandaotixinwen.xml"
     ],
     "娱乐": [
         "http://jandan.net/feed",
-        "https://qingniantuzhai.com/rss/"
+        "https://qingniantuzhai.com/rss/",
+        "https://decemberpei.cyou/rssbox/xiaohongshu-hotlist.xml",
+        "https://decemberpei.cyou/rssbox/weibo-realtimehot.xml",
+        "https://decemberpei.cyou/rssbox/bilibili-all.xml",
+        "https://decemberpei.cyou/rssbox/zhihu.xml",
+        "https://decemberpei.cyou/rssbox/tieba_hottopic.xml",
+        "https://decemberpei.cyou/rssbox/wechat-chaping.xml",
+        "https://decemberpei.cyou/rssbox/wechat-xiaozhongxiaoxi.xml",
+        "https://decemberpei.cyou/rssbox/wechat-xinchaochensilu.xml"
     ],
     "技术": [
         "http://feeds.feedburner.com/ruanyifeng",
@@ -41,14 +58,50 @@
         "https://www.zlovezl.cn/feeds/latest/",
         "https://api.feeddd.org/feeds/6152b4101269c358aa14122d",
         "https://api.feeddd.org/feeds/61455d381269c358aa11efca",
-        "http://www.udpwork.com/feed"
+        "http://www.udpwork.com/feed",
+        "https://api.newshacker.me/rss",
+        "https://www.supertechfans.com/cn/index.xml",
+        "https://zeli.app/zh/rss.xml",
+        "https://news.ycombinator.com/rss",
+        "https://hnrss.org/frontpage",
+        "https://hnrss.org/bestcomments",
+        "https://tech.meituan.com/rss.xml",
+        "https://linux.do/hot.rss",
+        "https://linux.do/latest.rss",
+        "https://decemberpei.cyou/rssbox/juejin_hot-articles.xml",
+        "https://decemberpei.cyou/rssbox/wechat-tengxunjishugongcheng.xml",
+        "https://decemberpei.cyou/rssbox/wechat-huichanquan.xml",
+        "https://decemberpei.cyou/rssbox/wechat-paperweekly.xml",
+        "https://decemberpei.cyou/rssbox/wechat-jiqizhixin.xml",
+        "https://decemberpei.cyou/rssbox/wechat-xinzhiyuan.xml",
+        "https://decemberpei.cyou/rssbox/wechat-shenkeji.xml",
+        "https://decemberpei.cyou/rssbox/wechat-liangziwei.xml",
+        "https://decemberpei.cyou/rssbox/wechat-aiqianxian.xml"
     ],
     "论坛": [
         "http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0",
         "https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1",
         "https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1"
+        "https://medium.com/feed/tag/china",
+        "https://www.ptt.cc/atom/Gossiping.xml",
+        "https://www.newsmth.net/nForum/rss/topten",
+        "https://www.mydigit.cn/forum.php?mod=guide&view=digest&rss=1",
+        "https://decemberpei.cyou/rssbox/guozaoke.xml",
+        "https://decemberpei.cyou/rssbox/hupu-1.xml",
+        "https://decemberpei.cyou/rssbox/wenxuecity-9.xml",
+        "https://decemberpei.cyou/rssbox/nga-1459709.xml",
+        "https://www.reddit.com/r/popular/.rss",
+        "https://www.reddit.com/r/China_irl/.rss",
+        "https://www.reddit.com/r/China/.rss",
+        "https://www.reddit.com/r/taiwan/.rss",
+        "https://www.reddit.com/r/Taiwanese/.rss",
+        "https://www.reddit.com/r/HongKong/.rss",
+        "https://www.reddit.com/r/workfromhome/.rss",
+        "https://www.reddit.com/r/todayilearned/.rss",
+        "https://www.reddit.com/r/funny/.rss"
     ],
     "其他": [
+    	"https://www.producthunt.com/feed",
         "https://freeweibo.com/?rss",
         "https://freewechat.com/?rss",
         "https://feeds2.feedburner.com/programthink",
