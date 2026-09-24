@@ -37,7 +37,6 @@
         "https://rsshub.app/pmcaff/list/2",
         "https://rsshub.app/baijing",
         "https://rsshub.app/adquan/info",
-        "https://www.jisilu.cn/feed",
         "https://api.feeddd.org/feeds/6150f3821269c358aa139d9b",
         "https://rsshub.app/weibo/search/hot",
         "https://rsshub.app/latepost",
@@ -98,6 +97,10 @@
         "http://cnpolitics.org/feed/",
         "https://rsshub.app/wikipedia/mainland",
         "https://rsshub.app/jiemian/list/79"
+    ],
+    "投资": [
+        "https://www.jisilu.cn/feed",
+        "https://www.xueqiu.com/hots/topic/rss"
     ],
     "娱乐": [
         "http://jandan.net/feed",
