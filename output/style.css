@@ -49,7 +49,7 @@
   .menu-btn {
     display: block !important;
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     z-index: 99;
   }
@@ -60,11 +60,11 @@
 
   .menu-label {
     padding: 1rem 2rem;
-    background-color: var(--faded-bg);
+    background-color: color-mix(in srgb, var(--faded-bg) 60%, transparent);
   }
 
   .menu-label::after {
-    content: 'groups';
+    content: '📚';
   }
 
   .menu-btn:checked ~ .sidebar {
@@ -76,7 +76,7 @@
   }
 
   .menu-btn:checked ~ .menu-label::after {
-    content: 'back';
+    content: '🚶‍♂️';
   }
 
   .sidebar {
