@@ -7,7 +7,7 @@ on:
   schedule:
     # Run this script every 1 hr
     #  */m hr day month day_of_week
-    - cron:  '0 0-8,14-23/2 * * *'
+    - cron:  '0 */2 * * *'
   workflow_dispatch:
     inputs:
       tags:
