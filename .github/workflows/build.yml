@@ -5,9 +5,9 @@ on:
       - main
   # Uncomment the section below to enable scheduled builds
   schedule:
-    # Run this script every 2 hr
+    # Run this script every 1 hr
     #  */m hr day month day_of_week
-    - cron:  '0 */2 * * *'
+    - cron:  '8 * * * *'
   workflow_dispatch:
     inputs:
       tags:

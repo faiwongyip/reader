@@ -164,7 +164,7 @@ async function fetchTextWithRetry(url) {
         redirect: 'follow',
         headers: {
           'User-Agent':
-            'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+            'FreshRSS/1.24.0 (Linux; https://freshrss.org)',
           'Accept':
             'application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*'
         },
