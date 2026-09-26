@@ -25,7 +25,15 @@
         "https://rss.aishort.top/?type=baidu",
         "https://zh.gijn.org/feed/",
         "https://decemberpei.cyou/rssbox/thepaper.xml",
-        "https://decemberpei.cyou/rssbox/wechat-nanfangzhoumo.xml"
+        "https://decemberpei.cyou/rssbox/wechat-nanfangzhoumo.xml",
+        "https://www.chuapp.com/feed",
+        "https://plink.anyfeeder.com/zaobao/realtime/china",
+        "https://plink.anyfeeder.com/zaobao/realtime/world",
+        "https://plink.anyfeeder.com/pentitugua",
+        "https://plink.anyfeeder.com/idaily/today",
+        "https://plink.anyfeeder.com/wsj/cn",
+        "https://plink.anyfeeder.com/nytimes/cn",
+        "https://plink.anyfeeder.com/bbc/cn"
     ],
     "商业投资": [
         "https://www.jisilu.cn/feed",
@@ -35,7 +43,15 @@
         "https://decemberpei.cyou/rssbox/wechat-maobidao.xml",
         "https://decemberpei.cyou/rssbox/wechat-zhongjindianjing.xml",
         "https://decemberpei.cyou/rssbox/wechat-peifengke.xml",
-        "https://decemberpei.cyou/rssbox/wechat-bandaotixinwen.xml"
+        "https://decemberpei.cyou/rssbox/wechat-bandaotixinwen.xml",
+        "https://supsub.net/feed/public/0abe9ac4/rss",
+        "https://supsub.net/feed/public/1d09f394/rss",
+        "https://supsub.net/feed/public/5b8a15a4/rss",
+        "https://supsub.net/feed/public/bb93f651/rss",
+        "https://supsub.net/feed/public/3da8155d/rss",
+        "https://plink.anyfeeder.com/fortunechina",
+        "https://plink.anyfeeder.com/jingjiribao",
+        "https://www.techflowpost.com/rss.aspx"
     ],
     "娱乐": [
         "http://jandan.net/feed",
@@ -62,6 +78,11 @@
         "https://tech.meituan.com/rss.xml",
         "https://linux.do/hot.rss",
         "https://linux.do/latest.rss",
+        "https://www.v2ex.com/index.xml",
+        "https://www.v2ex.com/feed/tab/tech.xml",
+        "https://www.v2ex.com/feed/tab/creative.xml",
+        "https://rss.nodeseek.com/",
+        "https://forum.naixi.net/forum.php?mod=rss",
         "https://decemberpei.cyou/rssbox/juejin_hot-articles.xml",
         "https://decemberpei.cyou/rssbox/wechat-tengxunjishugongcheng.xml",
         "https://decemberpei.cyou/rssbox/wechat-huichanquan.xml",
@@ -70,7 +91,19 @@
         "https://decemberpei.cyou/rssbox/wechat-xinzhiyuan.xml",
         "https://decemberpei.cyou/rssbox/wechat-shenkeji.xml",
         "https://decemberpei.cyou/rssbox/wechat-liangziwei.xml",
-        "https://decemberpei.cyou/rssbox/wechat-aiqianxian.xml"
+        "https://decemberpei.cyou/rssbox/wechat-aiqianxian.xml",
+        "https://supsub.net/feed/public/4aa39991/rss",
+        "https://supsub.net/feed/public/c94860c6/rss",
+        "https://ai-brief.liziran.com/zh/feed.xml",
+        "https://ai-digest.liziran.com/zh/feed.xml",
+        "https://api.anquanke.com/data/v1/rss",
+        "https://feed.appinn.com/",
+        "https://decohack.com/feed/",
+        "https://51.ruyo.net/feed",
+        "https://www.ezindie.com/feed/rss.xml",
+        "https://morerss.com/TopsTip",
+        "https://xunihao.net/feed",
+        "https://www.bboy.app/atom.xml"
     ],
     "论坛": [
         "http://erji.net/forum.php?mod=rss&fid=8&auth=0",
@@ -100,6 +133,11 @@
         "https://freewechat.com/?rss",
         "https://feeds2.feedburner.com/programthink",
         "https://tumutanzi.com/feed",
-        "https://workersrss-9yp.pages.dev/?wikipediahot=zh"
+        "https://workersrss-9yp.pages.dev/?wikipediahot=zh",
+        "https://www.toodaylab.com/feed",
+        "https://plink.anyfeeder.com/guokr/scientific",
+        "https://www.ahhhhfs.com/feed/",
+        "https://bf.zzxworld.com/feed.xml",
+        "https://iui.su/feed/"
     ]
 }

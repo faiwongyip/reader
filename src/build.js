@@ -48,7 +48,7 @@ async function build({ config, feeds, cache, writeCache = false }) {
       if (result.status === 'rejected') {
         const [url, error] = result.reason;
         errors.push(url);
-        console.error(`Error fetching ${url}:\n`, error);
+        console.error(`Error fetching ${url} :\n`, error);
         continue;
       }
 
