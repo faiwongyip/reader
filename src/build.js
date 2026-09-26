@@ -36,8 +36,8 @@ async function build({ config, feeds, cache, writeCache = false }) {
 
     const results = await Promise.allSettled(
       Object.values(feeds[groupName]).map(url =>
-        fetchWithRetry(url)
-          .then(res => [url, res])
+        fetchTextWithRetry(url)
+          .then(body => [url, body])
           .catch(e => {
             throw [url, e];
           })
@@ -52,10 +52,9 @@ async function build({ config, feeds, cache, writeCache = false }) {
         continue;
       }
 
-      const [url, response] = result.value;
+      const [url, body] = result.value;
 
       try {
-        const body = await response.text();
         if (!body.trim()) throw new Error('empty content');
         const contents = await parser.parseString(body);
         const isRedditRSS = contents.feedUrl && contents.feedUrl.includes("reddit.com/r/");
@@ -151,8 +150,14 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function fetchWithRetry(url) {
+async function fetchTextWithRetry(url) {
   for (let attempt = 0; attempt <= FETCH_RETRIES; attempt++) {
+    // Use an explicit, ref'd timer. `AbortSignal.timeout()` is unref'd, so a
+    // stalled request can let the event loop drain and Node exits with code 13
+    // ("unsettled top-level await") before the abort ever fires.
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT);
+
     try {
       const response = await fetch(url, {
         method: 'GET',
@@ -163,7 +168,7 @@ async function fetchWithRetry(url) {
           'Accept':
             'application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*'
         },
-        signal: AbortSignal.timeout(FETCH_TIMEOUT)
+        signal: controller.signal
       });
 
       if (!response.ok) {
@@ -173,12 +178,17 @@ async function fetchWithRetry(url) {
         await sleep((attempt + 1) * 1500);
         continue;
       }
-      return response;
+
+      return await response.text();
     } catch (error) {
       const code = error?.cause?.code || error?.code;
-      const retryable = ['ECONNRESET', 'ECONNREFUSED', 'ETIMEDOUT', 'UND_ERR_CONNECT_TIMEOUT'].includes(code);
+      const retryable =
+        error?.name === 'AbortError' ||
+        ['ECONNRESET', 'ECONNREFUSED', 'ETIMEDOUT', 'UND_ERR_CONNECT_TIMEOUT'].includes(code);
       if (!retryable || attempt === FETCH_RETRIES) throw error;
       await sleep((attempt + 1) * 1500);
+    } finally {
+      clearTimeout(timer);
     }
   }
 }
