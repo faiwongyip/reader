@@ -16,14 +16,8 @@ const USE_CACHE = !WRITE && process.argv.includes('--cached');
 
 const CACHE_PATH = './src/cache.json';
 const OUTFILE_PATH = './output/index.html';
-const CONTENT_TYPES = [
-  'application/json',
-  'application/atom+xml',
-  'application/rss+xml',
-  'application/xml',
-  'application/octet-stream',
-  'text/xml'
-];
+const FETCH_TIMEOUT = 15000;
+const FETCH_RETRIES = 2;
 
 const config = readCfg('./src/config.json');
 const feeds = USE_CACHE ? {} : readCfg('./src/feeds.json');
@@ -42,7 +36,7 @@ async function build({ config, feeds, cache, writeCache = false }) {
 
     const results = await Promise.allSettled(
       Object.values(feeds[groupName]).map(url =>
-        fetch(url, { method: 'GET' })
+        fetchWithRetry(url)
           .then(res => [url, res])
           .catch(e => {
             throw [url, e];
@@ -61,19 +55,12 @@ async function build({ config, feeds, cache, writeCache = false }) {
       const [url, response] = result.value;
 
       try {
-        // e.g., `application/xml; charset=utf-8` -> `application/xml`
-        const contentType = response.headers.get('content-type').split(';')[0];
-
-        if (!CONTENT_TYPES.includes(contentType))
-          throw Error(`Feed at ${url} has invalid content-type.`)
-
         const body = await response.text();
-        const contents = typeof body === 'string'
-          ? await parser.parseString(body)
-          : body;
+        if (!body.trim()) throw new Error('empty content');
+        const contents = await parser.parseString(body);
         const isRedditRSS = contents.feedUrl && contents.feedUrl.includes("reddit.com/r/");
 
-        if (!contents.items.length === 0)
+        if (!contents.items || contents.items.length === 0)
           throw Error(`Feed at ${url} contains no items.`)
 
         contents.feed = url;
@@ -85,45 +72,48 @@ async function build({ config, feeds, cache, writeCache = false }) {
         contents.items.forEach((item) => {
           // 1. try to normalize date attribute naming
           const dateAttr = item.pubDate || item.isoDate || item.date || item.published;
-          item.timestamp = new Date(dateAttr).toLocaleDateString();
+          const date = dateAttr ? new Date(dateAttr) : null;
+          item.timestamp = date && !Number.isNaN(date.getTime())
+            ? date.toLocaleDateString()
+            : '';
 
-          // 2. correct link url if it lacks the hostname
-          if (item.link && item.link.split('http').length === 1) {
-            item.link =
-              // if the hostname ends with a /, and the item link begins with a /
-              contents.link.slice(-1) === '/' && item.link.slice(0, 1) === '/'
-                ? contents.link + item.link.slice(1)
-                : contents.link + item.link;
-          }
+          // 2. resolve relative link urls against the feed link
+          try { item.link = new URL(item.link, contents.link).href; } catch {}
 
           // 3. parse subreddit feed comments
-          if (isRedditRSS && item.contentSnippet && item.contentSnippet.startsWith('submitted by    ')) {
+          if (isRedditRSS && item.contentSnippet?.startsWith('submitted by    ') && item.content) {
             // matches anything between double quotes, like `<a href="matches this">foo</a>`
             const quotesContentMatch = /(?<=")(?:\\.|[^"\\])*(?=")/g;
-            let [_submittedBy, _userLink, contentLink, commentsLink] = item.content.split('<a href=');
-            item.link = contentLink.match(quotesContentMatch)[0];
-            item.comments = commentsLink.match(quotesContentMatch)[0];
+            const parts = item.content.split('<a href=');
+            const contentLink = parts[2]?.match(quotesContentMatch)?.[0];
+            const commentsLink = parts[3]?.match(quotesContentMatch)?.[0];
+            if (contentLink) item.link = contentLink;
+            if (commentsLink) item.comments = commentsLink;
           }
 
           // 4. redirects
-          if (config.redirects) {
-            // need to parse hostname methodically due to unreliable feeds
-            const url = new URL(item.link);
-            const tokens = url.hostname.split('.');
-            const host = tokens[tokens.length - 2];
-            const redirect = config.redirects[host];
-            if (redirect) item.link = `https://${redirect}${url.pathname}${url.search}`;
+          if (config.redirects && item.link) {
+            try {
+              // need to parse hostname methodically due to unreliable feeds
+              const u = new URL(item.link);
+              const tokens = u.hostname.split('.');
+              const host = tokens[tokens.length - 2];
+              const redirect = config.redirects[host];
+              if (redirect) item.link = `https://${redirect}${u.pathname}${u.search}`;
+            } catch (e) {
+              console.warn(`跳过无效链接: ${item.link}`);
+            }
           }
 
           // 5. escape html in titles
-          item.title = escapeHtml(item.title);
+          item.title = escapeHtml(item.title ?? '');
         });
 
         // add to allItems
         allItems = [...allItems, ...contents.items];
       } catch (e) {
-        console.error(e);
-        errors.push(url)
+        errors.push(url);
+        console.error(`[FEED ERROR] URL: ${url} Type: parse — ${e.message}`);
       }
     }
   }
@@ -157,6 +147,42 @@ async function build({ config, feeds, cache, writeCache = false }) {
 /**
  * utils
  */
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetchWithRetry(url) {
+  for (let attempt = 0; attempt <= FETCH_RETRIES; attempt++) {
+    try {
+      const response = await fetch(url, {
+        method: 'GET',
+        redirect: 'follow',
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+          'Accept':
+            'application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*'
+        },
+        signal: AbortSignal.timeout(FETCH_TIMEOUT)
+      });
+
+      if (!response.ok) {
+        const retryable = [408, 429, 500, 502, 503, 504].includes(response.status);
+        if (!retryable || attempt === FETCH_RETRIES)
+          throw new Error(`HTTP ${response.status} ${response.statusText}`);
+        await sleep((attempt + 1) * 1500);
+        continue;
+      }
+      return response;
+    } catch (error) {
+      const code = error?.cause?.code || error?.code;
+      const retryable = ['ECONNRESET', 'ECONNREFUSED', 'ETIMEDOUT', 'UND_ERR_CONNECT_TIMEOUT'].includes(code);
+      if (!retryable || attempt === FETCH_RETRIES) throw error;
+      await sleep((attempt + 1) * 1500);
+    }
+  }
+}
+
 function parseDate(item) {
   let date = item
     ? (item.isoDate || item.pubDate)
@@ -200,7 +226,7 @@ function readCfg(path) {
 
 
 function escapeHtml(html) {
-  return html.replaceAll('&', '&amp;')
+  return (html ?? '').replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
     .replaceAll('\'', '&apos;')
