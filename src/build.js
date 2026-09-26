@@ -164,7 +164,7 @@ async function fetchTextWithRetry(url) {
         redirect: 'follow',
         headers: {
           'User-Agent':
-            'FreshRSS/1.24.0 (Linux; https://freshrss.org)',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
           'Accept':
             'application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*'
         },
