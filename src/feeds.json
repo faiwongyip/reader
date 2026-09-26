@@ -51,7 +51,10 @@
         "https://supsub.net/feed/public/3da8155d/rss",
         "https://plink.anyfeeder.com/fortunechina",
         "https://plink.anyfeeder.com/jingjiribao",
-        "https://www.techflowpost.com/rss.aspx"
+        "https://www.techflowpost.com/rss.aspx",
+        "https://supsub.net/feed/public/67cd7af3/rss",
+        "https://supsub.net/feed/public/9f600211/rss",
+        "https://supsub.net/feed/public/e53f7972/rss"
     ],
     "娱乐": [
         "http://jandan.net/feed",
@@ -103,7 +106,11 @@
         "https://www.ezindie.com/feed/rss.xml",
         "https://morerss.com/TopsTip",
         "https://xunihao.net/feed",
-        "https://www.bboy.app/atom.xml"
+        "https://www.bboy.app/atom.xml",
+        "https://supsub.net/feed/public/4ec69d2a/rss",
+        "https://supsub.net/feed/public/bffc87f3/rss",
+        "https://supsub.net/feed/public/536a3f05/rss",
+        "https://supsub.net/feed/public/4aa39991/rss"
     ],
     "论坛": [
         "http://erji.net/forum.php?mod=rss&fid=8&auth=0",
