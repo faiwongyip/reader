@@ -11,7 +11,6 @@
         "https://cn.apkjam.com/feed.xml",
         "https://www.cnmo.com/rss/doc.xml",
         "https://www.leiphone.com/feed",
-        "https://www.zhihu.com/rss",
         "https://dq.yam.com/rss.php",
         "https://pansci.asia/feed",
         "https://feedx.net/rss/jiemian.xml",
@@ -27,13 +26,19 @@
         "https://decemberpei.cyou/rssbox/thepaper.xml",
         "https://decemberpei.cyou/rssbox/wechat-nanfangzhoumo.xml",
         "https://www.chuapp.com/feed",
-        "https://plink.anyfeeder.com/zaobao/realtime/china",
-        "https://plink.anyfeeder.com/zaobao/realtime/world",
+        "https://rsshub.chyi.org/zaobao/realtime/china",
+        "https://rsshub.chyi.org/zaobao/realtime/world",
         "https://plink.anyfeeder.com/pentitugua",
         "https://plink.anyfeeder.com/idaily/today",
         "https://plink.anyfeeder.com/wsj/cn",
         "https://plink.anyfeeder.com/nytimes/cn",
-        "https://plink.anyfeeder.com/bbc/cn"
+        "https://plink.anyfeeder.com/bbc/cn",
+        "https://rsshub.mt.cd/tophub/mproPpoq6O",
+        "https://rsshub.mt.cd/tophub/WnBe01o371",
+        "https://rss.aishort.top/?type=wasi",
+        "https://rsshub.jordangong.com/hk01/hot",
+        "https://rsshub.mt.cd/nhk/news/zh",
+        "https://rsshub.chyi.org/guancha/headline"
     ],
     "商业投资": [
         "https://www.jisilu.cn/feed",
@@ -54,14 +59,19 @@
         "https://www.techflowpost.com/rss.aspx",
         "https://supsub.net/feed/public/67cd7af3/rss",
         "https://supsub.net/feed/public/9f600211/rss",
-        "https://supsub.net/feed/public/e53f7972/rss"
+        "https://supsub.net/feed/public/e53f7972/rss",
+        "https://rsshub.mt.cd/jinse/lives/1",
+        "https://rsshub.mt.cd/jinse/timeline",
+        "https://rsshub.mt.cd/tophub/Q1Vd5Ko85R",
+        "https://rsshub.jordangong.com/wallstreetcn/hot",
+        "https://rsshub.chyi.org/36kr/hot-list"
     ],
     "娱乐": [
-        "http://jandan.net/feed",
+        "https://rsshub.chyi.org/jandan/top",
         "https://decemberpei.cyou/rssbox/xiaohongshu-hotlist.xml",
+        "https://rsshub.chyi.org/weibo/search/hot",
         "https://decemberpei.cyou/rssbox/weibo-realtimehot.xml",
-        "https://decemberpei.cyou/rssbox/bilibili-all.xml",
-        "https://decemberpei.cyou/rssbox/zhihu.xml",
+        "https://rsshub.chyi.org/tophub/74KvxwokxM",
         "https://decemberpei.cyou/rssbox/tieba_hottopic.xml",
         "https://decemberpei.cyou/rssbox/wechat-chaping.xml",
         "https://decemberpei.cyou/rssbox/wechat-xiaozhongxiaoxi.xml",
@@ -81,6 +91,7 @@
         "https://tech.meituan.com/rss.xml",
         "https://linuxdorss.longpink.com/top.xml",
         "https://linuxdorss.longpink.com/latest.xml",
+        "https://rsshub.jordangong.com/v2ex/topics/hot",
         "https://www.v2ex.com/index.xml",
         "https://www.v2ex.com/feed/tab/tech.xml",
         "https://www.v2ex.com/feed/tab/creative.xml",
@@ -110,7 +121,8 @@
         "https://supsub.net/feed/public/4ec69d2a/rss",
         "https://supsub.net/feed/public/bffc87f3/rss",
         "https://supsub.net/feed/public/536a3f05/rss",
-        "https://supsub.net/feed/public/4aa39991/rss"
+        "https://supsub.net/feed/public/4aa39991/rss",
+        "https://rsshub.mt.cd/coolapk/hot"
     ],
     "论坛": [
         "http://erji.net/forum.php?mod=rss&fid=8&auth=0",
@@ -132,7 +144,10 @@
         "https://www.reddit.com/r/HongKong/.rss",
         "https://www.reddit.com/r/workfromhome/.rss",
         "https://www.reddit.com/r/todayilearned/.rss",
-        "https://www.reddit.com/r/funny/.rss"
+        "https://www.reddit.com/r/funny/.rss",
+        "https://rsshub.mt.cd/tophub/NKGoRAzel6",
+        "https://rsshub.mt.cd/nga/forum/-1459709",
+        "https://rsshub.mt.cd/nga/forum/498"
     ],
     "其他": [
     	"https://www.producthunt.com/feed",
