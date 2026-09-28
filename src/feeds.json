@@ -38,7 +38,11 @@
         "https://rss.aishort.top/?type=wasi",
         "https://rsshub.jordangong.com/hk01/hot",
         "https://rsshub.mt.cd/nhk/news/zh",
-        "https://rsshub.chyi.org/guancha/headline"
+        "https://rsshub.chyi.org/guancha/headline",
+        "https://rsshub.mt.cd/idaily",
+        "https://rsshub.jordangong.com/cna/acn",
+        "https://rsshub.jordangong.com/cna/aall",
+        "https://rsshub.mt.cd/timednews/news"
     ],
     "商业投资": [
         "https://www.jisilu.cn/feed",
@@ -64,7 +68,9 @@
         "https://rsshub.mt.cd/jinse/timeline",
         "https://rsshub.mt.cd/tophub/Q1Vd5Ko85R",
         "https://rsshub.jordangong.com/wallstreetcn/hot",
-        "https://rsshub.chyi.org/36kr/hot-list"
+        "https://rsshub.chyi.org/36kr/hot-list",
+        "https://rsshub.mt.cd/qbitai/category/%E8%B5%84%E8%AE%AF",
+        "https://rsshub.mt.cd/ccreports/article"
     ],
     "娱乐": [
         "https://rsshub.chyi.org/jandan/top",
@@ -147,7 +153,10 @@
         "https://www.reddit.com/r/funny/.rss",
         "https://rsshub.mt.cd/tophub/NKGoRAzel6",
         "https://rsshub.mt.cd/nga/forum/-1459709",
-        "https://rsshub.mt.cd/nga/forum/498"
+        "https://rsshub.mt.cd/nga/forum/498",
+        "https://rsshub.mt.cd/1point3acres/section/379",
+        "https://rsshub.mt.cd/1point3acres/section/400",
+        "https://rsshub.mt.cd/1point3acres/section/345"
     ],
     "其他": [
     	"https://www.producthunt.com/feed",
