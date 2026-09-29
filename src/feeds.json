@@ -32,16 +32,16 @@
         "https://plink.anyfeeder.com/wsj/cn",
         "https://plink.anyfeeder.com/nytimes/cn",
         "https://plink.anyfeeder.com/bbc/cn",
-        "https://rsshub-balancer.virworks.moe/tophub/mproPpoq6O",
-        "https://rsshub-balancer.virworks.moe/tophub/WnBe01o371",
+        "https://rss.con.sh/tophub/mproPpoq6O",
+        "https://rss.con.sh/tophub/WnBe01o371",
         "https://rss.aishort.top/?type=wasi",
         "https://rsshub.jordangong.com/hk01/hot",
-        "https://rsshub-balancer.virworks.moe/nhk/news/zh",
+        "https://rss.con.sh/nhk/news/zh",
         "https://rsshub.chyi.org/guancha/headline",
-        "https://rsshub-balancer.virworks.moe/idaily",
+        "https://rss.con.sh/idaily",
         "https://rsshub.jordangong.com/cna/acn",
         "https://rsshub.jordangong.com/cna/aall",
-        "https://rsshub-balancer.virworks.moe/timednews/news"
+        "https://rss.con.sh/timednews/news"
     ],
     "商业投资": [
         "https://www.jisilu.cn/feed",
@@ -63,16 +63,16 @@
         "https://supsub.net/feed/public/67cd7af3/rss",
         "https://supsub.net/feed/public/9f600211/rss",
         "https://supsub.net/feed/public/e53f7972/rss",
-        "https://rsshub-balancer.virworks.moe/jinse/lives/1",
-        "https://rsshub-balancer.virworks.moe/jinse/timeline",
-        "https://rsshub-balancer.virworks.moe/tophub/Q1Vd5Ko85R",
+        "https://rsshub.top/jinse/lives/1",
+        "https://rsshub.top/jinse/timeline",
+        "https://rsshub.top/tophub/Q1Vd5Ko85R",
         "https://rsshub.jordangong.com/wallstreetcn/hot",
         "https://rsshub.chyi.org/36kr/hot-list",
-        "https://rsshub-balancer.virworks.moe/qbitai/category/%E8%B5%84%E8%AE%AF",
-        "https://rsshub-balancer.virworks.moe/ccreports/article"
+        "https://rsshub.top/qbitai/category/%E8%B5%84%E8%AE%AF",
+        "https://rsshub.top/ccreports/article"
     ],
     "娱乐": [
-        "https://rsshub-balancer.virworks.moe/jandan/top",
+        "https://rsshub.rssforever.com/jandan/top",
         "https://decemberpei.cyou/rssbox/xiaohongshu-hotlist.xml",
         "https://rsshub.chyi.org/weibo/search/hot",
         "https://decemberpei.cyou/rssbox/weibo-realtimehot.xml",
@@ -127,7 +127,7 @@
         "https://supsub.net/feed/public/bffc87f3/rss",
         "https://supsub.net/feed/public/536a3f05/rss",
         "https://supsub.net/feed/public/4aa39991/rss",
-        "https://rsshub-balancer.virworks.moe/coolapk/hot"
+        "https://rsshub.rssforever.com/coolapk/hot"
     ],
     "论坛": [
         "http://erji.net/forum.php?mod=rss&fid=8&auth=0",
@@ -150,15 +150,15 @@
         "https://www.reddit.com/r/workfromhome/.rss",
         "https://www.reddit.com/r/todayilearned/.rss",
         "https://www.reddit.com/r/funny/.rss",
-        "https://rsshub-balancer.virworks.moe/tophub/NKGoRAzel6",
-        "https://rsshub-balancer.virworks.moe/nga/forum/-1459709",
-        "https://rsshub-balancer.virworks.moe/nga/forum/498",
-        "https://rsshub-balancer.virworks.moe/1point3acres/section/379",
-        "https://rsshub-balancer.virworks.moe/1point3acres/section/400",
-        "https://rsshub-balancer.virworks.moe/1point3acres/section/345"
+        "https://rsshub.rssforever.com/tophub/NKGoRAzel6",
+        "https://rsshub.rssforever.com/nga/forum/-1459709",
+        "https://rsshub.umzzz.com/nga/forum/498",
+        "https://rsshub.umzzz.com/1point3acres/section/379",
+        "https://rsshub.umzzz.com/1point3acres/section/400",
+        "https://rsshub.umzzz.com/1point3acres/section/345"
     ],
     "其他": [
-    	"https://www.producthunt.com/feed",
+        "https://www.producthunt.com/feed",
         "https://freeweibo.com/?rss",
         "https://freewechat.com/?rss",
         "https://feeds2.feedburner.com/programthink",
