@@ -14,12 +14,12 @@
         "https://dq.yam.com/rss.php",
         "https://pansci.asia/feed",
         "https://feedx.net/rss/jiemian.xml",
-        "https://www.hket.com/rss/hongkong",
-        "https://www.hket.com/rss/china",
-        "https://www.hket.com/rss/world",
+        "https://rsshub.gujiakai.top/hket/srat006",
+        "https://rsshub.gujiakai.top/hket/srac002",
+        "https://rsshub.gujiakai.top/hket/sran011",
         "http://www.ftchinese.com/rss/news",
         "http://www.ftchinese.com/rss/hotstoryby7day",
-        "https://feedx.net/rss/nikkei.xml",
+        "https://rsshub.gujiakai.top/nikkei/cn",
         "https://rss.aishort.top/?type=baidu",
         "https://zh.gijn.org/feed/",
         "https://decemberpei.cyou/rssbox/thepaper.xml",
@@ -72,7 +72,7 @@
         "https://rsshub.top/ccreports/article"
     ],
     "娱乐": [
-        "https://rsshub.rssforever.com/jandan/top",
+        "https://rss.peachyjoy.top/jandan/top",
         "https://decemberpei.cyou/rssbox/xiaohongshu-hotlist.xml",
         "https://rsshub.chyi.org/weibo/search/hot",
         "https://decemberpei.cyou/rssbox/weibo-realtimehot.xml",
@@ -85,8 +85,7 @@
     "技术": [
         "http://feeds.feedburner.com/ruanyifeng",
         "https://www.infoq.cn/feed",
-        "https://www.zlovezl.cn/feeds/latest/",
-        "http://www.udpwork.com/feed",
+        "https://www.piglei.com/feeds/latest/",
         "https://api.newshacker.me/rss",
         "https://www.supertechfans.com/cn/index.xml",
         "https://zeli.app/zh/rss.xml",
@@ -120,14 +119,14 @@
         "https://decohack.com/feed/",
         "https://51.ruyo.net/feed",
         "https://www.ezindie.com/feed/rss.xml",
-        "https://morerss.com/TopsTip",
+        "https://topstip.com/feed/",
         "https://xunihao.net/feed",
         "https://www.bboy.app/atom.xml",
         "https://supsub.net/feed/public/4ec69d2a/rss",
         "https://supsub.net/feed/public/bffc87f3/rss",
         "https://supsub.net/feed/public/536a3f05/rss",
         "https://supsub.net/feed/public/4aa39991/rss",
-        "https://rsshub.rssforever.com/coolapk/hot"
+        "https://rss.peachyjoy.top/coolapk/hot"
     ],
     "论坛": [
         "http://erji.net/forum.php?mod=rss&fid=8&auth=0",
@@ -150,12 +149,12 @@
         "https://www.reddit.com/r/workfromhome/.rss",
         "https://www.reddit.com/r/todayilearned/.rss",
         "https://www.reddit.com/r/funny/.rss",
-        "https://rsshub.rssforever.com/tophub/NKGoRAzel6",
-        "https://rsshub.rssforever.com/nga/forum/-1459709",
-        "https://rsshub.umzzz.com/nga/forum/498",
-        "https://rsshub.umzzz.com/1point3acres/section/379",
-        "https://rsshub.umzzz.com/1point3acres/section/400",
-        "https://rsshub.umzzz.com/1point3acres/section/345"
+        "https://rss.peachyjoy.top/tophub/NKGoRAzel6",
+        "https://rss.peachyjoy.top/nga/forum/-1459709",
+        "https://rss.tonoo.net/nga/forum/498",
+        "https://rss.tonoo.net/1point3acres/section/379",
+        "https://rss.tonoo.net/1point3acres/section/400",
+        "https://rss.tonoo.net/1point3acres/section/345"
     ],
     "其他": [
         "https://www.producthunt.com/feed",
